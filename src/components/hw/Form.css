@@ -1,0 +1,84 @@
+.registration {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 20px;
+}
+
+hr {
+  margin: 50px auto;
+  width: 1000px;
+}
+.inps {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.formInput {
+  width: 426px;
+  height: 56px;
+  border: 1px solid rgb(60, 99, 255);
+  margin-bottom: 20px;
+  align-self: center;
+  flex-grow: 0;
+  opacity: 0.9;
+  border-radius: 100px;
+  border: solid 1px #1c1c1c;
+  padding-left: 15px;
+}
+.abraBtn {
+  width: 171px;
+  height: 56px;
+  flex-grow: 0;
+  gap: 10px;
+  padding: 16px 10px;
+  border-radius: 12px;
+  background-color: #ff9f00;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+  flex-grow: 0;
+  font-family: Assistant;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+.abraBtn:hover {
+  background-color: #f08e0e;
+}
+.abraBtn:focus {
+  background-color: #d87a00;
+}
+.abraBtn:active {
+  background-color: #ffbb33;
+}
+.loginSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.manipulateSection {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+.btnWrapper {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#itemBtn {
+  align-self: center;
+  margin-bottom: 20px;
+}
